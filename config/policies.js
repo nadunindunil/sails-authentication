@@ -34,6 +34,7 @@ module.exports.policies = {
   * and its actions                                                          *
   *                                                                          *
   ***************************************************************************/
+
 	// RabbitController: {
 
 		// Apply the `false` policy as the default for all of RabbitController's actions
@@ -48,4 +49,12 @@ module.exports.policies = {
 		// before letting any users feed our rabbits
 		// feed : ['isNiceToAnimals', 'hasRabbitFood']
 	// }
+
+  '*': ['authToken'], // Everything resctricted here
+
+  'AuthController': {
+    '*': true // We dont need authorization here, allowing public access
+  }
+
+
 };
