@@ -5,14 +5,15 @@ a [Sails](http://sailsjs.org) application
 steps to start the api-
 
 in CMD
+
 1. npm install 
 2. sails lift
 
 
 basic routes for authentication are:
 
-http://localhost:1337/login
-http://localhost:1337/signup
+* http://localhost:1337/login
+* http://localhost:1337/signup
 
 until passing the token in header as the Authentication ------ bearer TOKEN_HERE access won't be granted by the api.
 
