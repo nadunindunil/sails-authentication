@@ -26,5 +26,6 @@ will work
 
 #important -
 your MySQL server should be up and running to work with the API.
+DB name is 'sltest'
 
 use this link to understand more about the authentication done in the project- https://github.com/saviogl/sails-hook-jwt-auth
