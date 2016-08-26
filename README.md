@@ -6,12 +6,10 @@ steps to start the api-
 
 in CMD
 
-`
-
+```javascript
 npm install
 sails lift
-
-`
+```
 
 basic routes for authentication are:
 
@@ -22,10 +20,9 @@ until passing the token in header as the Authentication ------ (Bearer TOKEN_HER
 
 then simple routes like
 
-`
-http://localhost:1337/user
-http://localhost:1337/user/create
-`
+
+* http://localhost:1337/user
+* http://localhost:1337/user/create
 will work
 
 #important -
