@@ -6,9 +6,12 @@ steps to start the api-
 
 in CMD
 
-1. npm install 
-2. sails lift
+`
 
+npm install
+sails lift
+
+`
 
 basic routes for authentication are:
 
@@ -17,12 +20,13 @@ basic routes for authentication are:
 
 until passing the token in header as the Authentication ------ (Bearer TOKEN_HERE) access won't be granted by the api.
 
-then simple routes like 
+then simple routes like
 
+`
 http://localhost:1337/user
-http://localhost:1337/user/create 
-
-will work 
+http://localhost:1337/user/create
+`
+will work
 
 #important -
 your MySQL server should be up and running to work with the API.
